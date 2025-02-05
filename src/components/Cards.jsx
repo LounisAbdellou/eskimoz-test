@@ -5,7 +5,7 @@ const Cards = ({ profiles }) => {
 				profiles.map((profile, index) => (
 					<div
 						key={index}
-						className="max-w-lg mx-auto bg-white rounded-lg shadow-md p-5"
+						className="w-full mx-auto bg-white rounded-lg shadow-md p-5"
 					>
 						<img
 							className="w-32 h-32 rounded-full mx-auto"
